@@ -76,6 +76,12 @@ body{
   padding: 20px;
 }
 
+#information .sources li a{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
 #information1{
   color: white;
   background: rgba(0, 0, 0, 0.5);
@@ -86,4 +92,19 @@ body{
   margin-top: 350px;
   border: 3px white solid;
   padding: 20px;
+}
+
+#information1 .sources li a{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+img {
+  width: 150px;
+  border: 1px solid #ddd;
+  float: right;
+  padding: 5px;
+  display: inline-block;
+  margin: 25px 10px;
 }
